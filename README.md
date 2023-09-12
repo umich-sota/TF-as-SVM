@@ -17,7 +17,7 @@ $$K(k+1)=K(k)-\eta\frac{\nabla\widetilde{\mathcal{L}}_K(K(k),Q(k))}{||\nabla\wid
 
 Additionally, to evaluate the similarity of two matrices, we use the following measurement:
 
-$$\text{Correlation coefficient}(W_1,W_2)=\frac{\langle W_1,W_2\rangle}{||W_1||~||W_2||}.$$
+$$\text{Correlation coefficient}(W_1,W_2)=\frac{\langle W_1,W_2\rangle}{||W_1||_F||W_2||_F}.$$
 
 
 
