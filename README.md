@@ -38,6 +38,9 @@ cvxpy
 
   - *local_converge.ipynb*: Evolutions of softmax probabilities when training $W$ (blue) or $(K,Q)$ (red) parameters and correlation coefficients to $W_\alpha^{\text{mm}}$ (blue) or $W^{\text{mm}}_{\star,\alpha}$ (red).
 
+- Multi-token convergence:
+  - *multi_token_converge.ipynb*: Evolutions of 1-correlation coefficient when training $W$ with varying $d$. Also visulizations of the solved random instances: The $x$-axis represents the largest softmax probability over the masked set, denoted as $\max_{i,\tau}s_{i\tau}$ where $\tau\in\bar{\mathcal{O}}$; the $y$-axis indicates the predictivity of the SVM-equivalence.
+
 - Low rank experiments: 
 
   - *svm_rank.ipynb*: Investigation of rank of SVM solutions with Frobenius norm (solid) or nuclear norm (dashed) under different $(n,T,d)$ choices.
